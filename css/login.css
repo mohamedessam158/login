@@ -1,0 +1,17 @@
+.home{
+    background-color: #24353F;
+    width: 100%;
+    height: 100%;
+}
+
+
+.home .group h1{
+    color: #17A2B8;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.home .group input{
+    background-color: transparent;
+    color: white;
+}

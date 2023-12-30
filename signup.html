@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>sign up</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/signup.css">
+    </head>
+<body>
+    <div class="home">
+        <div class="container text-center pt-5">
+            <div class="group m-auto w-75 p-5 shadow-lg mt-2">
+                <h1>Smart Login System</h1>
+                <input id="signupName" class="form-control my-3" oninput="validationName()" placeholder="Enter your name" type="text">
+                <div id="nameMessage" class="text-start alert alert-danger d-none">You must include at least 3 letters and a maximum of 12 letters</div>
+                <input id="signinEmail" class="form-control my-3" oninput="validationEmail()" placeholder="Enter your email" type="text">
+                <div id="emailMessage" class="text-start alert alert-danger d-none">Enter the valid email</div>
+                <input id="signinPassword" class="form-control my-3" oninput="validationPassward()" placeholder="Enter your password" type="password">
+                <div id="passwardMessage" class="text-start alert alert-danger d-none">you must incloud at list 6 number or letters</div>
+                <p id="exist"></p>
+
+            <button id="signinBtn2" onclick="signUp()"  class="btn btn-outline-info w-100 my-3">Sign Up</button>
+            <button  id="signinBtn" onclick="signUp2()" class="btn btn-outline-info w-100 my-3 d-none">Sign In</button>
+            <p id="exist2" class="text-white">You have an account? <a class='text-white' href='/'>Signin</a></p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signup.js"></script>
+</body>
+</html>
